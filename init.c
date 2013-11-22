@@ -1,4 +1,11 @@
 /**
+ * Copyright © 2013 Jean-François Hren <jfhren@gmail.com>
+ * This work is free. You can redistribute it and/or modify it under the
+ * terms of the Do What The Fuck You Want To Public License, Version 2,
+ * as published by Sam Hocevar. See the COPYING file for more details.
+ */
+
+/**
  * Define the interrupt vector which will be placed at the begining of the
  * flash. Each component of the interrupt vector is a jump to the interrupt
  * service routine.The first interrupt is a jump to the _reset fonction.
